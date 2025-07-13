@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import { FaMinus } from "react-icons/fa";
 import { BiReset } from "react-icons/bi";
-
+import img from '../src/assets/counter.png'
+import gif from '../src/assets/tasbeeh.gif'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,7 +20,7 @@ function App() {
   return (
     <div className='w-full h-[100vh]'>
       <div className='w-full h-full relative'>
-        <img src='/assets/tasbeeh.gif' className='h-full absolute w-full object-cover' />
+        <img src={gif} className='h-full absolute w-full object-cover' />
         <div className="absolute top-0 h-full w-full bg-black/50"></div>
         <div className='absolute top-0 w-full flex justify-content-center flex-col h-full items-center'>
           <h1 className='mb-4 mt-2 text-center text-xl sm:text-3xl font-semibold text-white'>Online Tasbeeh Counter</h1>
@@ -27,7 +28,7 @@ function App() {
             className="h-[300px] w-full sm:h-[300px] sm:w-[400px] bg-no-repeat bg-center bg-contain"
             style={{
               blockSize: '100%',
-              backgroundImage: `url(/assets/react.svg)`,
+              backgroundImage: `url(${img})`,
             }}
           >
             <div className='w-full h-[90%] flex justify-center items-center'>
