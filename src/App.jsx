@@ -11,7 +11,7 @@ function App() {
     setCount(count + 1)
   }
   const resets = () => {
-    alert('Are you sure to reset you Tasbeeh!')
+    alert('Are you sure to reset your Tasbeeh!')
     setCount(0)
   }
   const decrement = () => {
