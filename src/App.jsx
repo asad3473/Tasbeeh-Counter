@@ -27,7 +27,7 @@ function App() {
             className="h-[300px] w-full sm:h-[300px] sm:w-[400px] bg-no-repeat bg-center bg-contain"
             style={{
               blockSize: '100%',
-              backgroundImage: `url(/assets/counter.png)`,
+              backgroundImage: `url(/assets/react.svg)`,
             }}
           >
             <div className='w-full h-[90%] flex justify-center items-center'>
