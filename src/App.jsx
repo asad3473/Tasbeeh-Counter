@@ -11,6 +11,7 @@ function App() {
     setCount(count + 1)
   }
   const resets = () => {
+    alert('Are you sure to reset you Tasbeeh!')
     setCount(0)
   }
   const decrement = () => {
@@ -106,6 +107,8 @@ function App() {
           </div>
         ))}
       </div>
+      <hr className=' text-gray-300 mb-2'/>
+      <p className=' text-center text-gray-400'>© 2025 – All Rights Reserved – Asad Soomro</p>
     </div>
   )
 }
