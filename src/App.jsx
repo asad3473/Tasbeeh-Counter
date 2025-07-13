@@ -19,7 +19,7 @@ function App() {
   }
 
   return (
-    <div className='w-full h-[100vh]'>
+    <div className='w-full h-[60vh] sm:h-[100vh]'>
       <div className='w-full h-full relative'>
         <img src={gif} className='h-full absolute w-full object-cover' />
         <div className="absolute top-0 h-full w-full bg-black/50"></div>
